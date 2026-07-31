@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">🛍 My Shopping Store</div>
+</header>
+
+<h2 class="title">Checkout</h2>
+
+<div class="login-box">
+
+<input type="text" id="name" placeholder="Full Name" required>
+
+<input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+<textarea id="address" placeholder="Full Address" required></textarea>
+
+<input type="text" id="city" placeholder="City" required>
+
+<input type="text" id="pincode" placeholder="Pincode" required>
+
+<h3>Payment Method</h3>
+
+<label>
+<input type="radio" name="payment" value="Cash on Delivery" checked>
+Cash on Delivery (COD)
+</label>
+
+<br><br>
+
+<button onclick="placeOrder()">
+✅ Place Order
+</button>
+
+</div>
+
+<script type="module" src="checkout.js"></script>
+
+</body>
+</html>
